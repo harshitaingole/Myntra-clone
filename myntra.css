@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+*{
+    
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif; 
+}
+#navbar img{
+    margin-top: 11px;
+}
+#flatoff300{
+    background-color: #5d5d5f;
+    left: 1313px;
+    top: 300px;
+    writing-mode:vertical-rl;
+    height: 230px;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+    position: fixed;
+}
+#navbar{
+    margin-top: -10px;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 12px 0px;
+    background-color: white;
+}
+a{
+    padding-left: -100px;
+    padding: 10px;
+    margin: 5px;
+    color:#282c3f;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#profiles{
+    margin-left: 15px;
+}
+
+#sub1{
+    
+    visibility: hidden;
+    display: none;
+    margin-top: 10px;
+    position: absolute;
+}
+#dropdawn{
+    display: flex;
+    background-color: white;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+li:hover ul#sub1{
+    display: block;
+    visibility: visible;
+}
+#dropdawn ul li a {
+    color: #86888f;
+}
+#dropdawn ul li :hover{
+    border: none;
+    color: #282c3f;
+}
+#men a:hover{
+    
+    border-bottom: 3px solid #ee5f73;
+}
+#drop{
+    margin-left: -50px;
+}
+
+#women a:hover{
+    border-bottom: 3px solid #fb56c1;
+    transition: 0s ease;
+}
+#kids a:hover{
+    border-bottom: 3px solid #f26a10;
+}
+#home a:hover{
+    border-bottom: 3px solid #f2c210;
+}
+#beauty a:hover{
+    border-bottom: 3px solid #0db7af;
+}
+#studio a:hover{
+    border-bottom: 3px solid #ff3f6c;
+}
+
+#search{
+    font-size: 14px;
+    background-color: #f7f3f3;
+    padding: 10px;
+    height: 35px;
+    color: rgb(117, 109, 109);
+    margin-left: 90px;
+}
+#drop ul{
+    display: flex;
+    
+}
+#drop ul li {
+    list-style: none;
+}
+#sub1 ul li {
+    
+    margin-left: -30px;
+}
+#sub1 ul{
+    display: block;
+    background-color: #fafbfc;
+    color: black;
+}
+#profiles{
+    display: flex;
+}
+#searchbar{
+    outline: none;
+    height: 35px;
+    border: none;
+    width: 300px;
+    background-color:#f7f3f3 ;
+    
+}
+#searchbar :hover{
+    background-color: white;
+    
+}
+i{
+    font-size: 15px;
+}
+
+#flatoff{
+    display: flex;
+    margin-bottom: -17px;
+}
+#width{
+    width: 100vw;
+}
+#container{
+    display: flex;
+}
+#container img{
+   width: 190px;
+   height: 300px;
+
+}
+#tables{
+    font-family: 'apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+   
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+#tabledata{
+    font-size: 11px;
+    
+}
+#tables td{
+   color: #5e6166;
+   font-weight: bold;
+}
+footer{
+    background-color: #fafbfc;
+    color: #d3d4da;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin: 80px;
+}
+#originaldiv{
+    display: flex;
+}
+#originaldiv2{
+    display: flex;
+}
+#copy{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    color:#76777c ;
+}
+#addr{
+
+    color:#55555f ;
+    margin-left: 40px;
+}
+#online{
+    font-size: 14px;
+    margin-left: 40px;
+    color:#55555f ;
+}
+#cont2{
+    margin-left: 100px;
+}
+#container{
+    width: 100%;
+}
+#container img{
+    height: 300px;
+    width: 219px;
+}
+#container2{
+    width: 100%;
+}
+#container2 img{
+    height: 300px;
+    width: 219px;
+}
+#container3{
+    width: 100%;
+}
+#container3 img{
+    height: 300px;
+    width: 219px;
+}
+#container4{
+    width: 100%;
+}
+#container4 img{
+    height: 300px;
+    width: 219px;
+}
+#container5{
+    width: 100%;
+}
+#container5 img{
+    height: 300px;
+    width: 219px;
+}
+#medalhead{
+    color: #424455;
+    font-size: 28.8px;
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 4.30px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#medal img{
+    margin-top: 40px;
+    height: 300px;
+    width: 220px;
+}
+
+#brandshead{
+    color: #424455;
+    font-size: 28.8px;
+    margin-top: 30px;
+    margin-left: 50px;
+    letter-spacing: 4.30px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#brand img{
+    margin-top: 40px;
+    height: 300px;
+    width: 220px;
+}
+#logo{
+    height: 20px;
+    
+    display: flex;
+}
+ol{
+    margin-left: 20PX;
+    color: #94969f;
+}
+li{
+    margin-left: 10px;
+    color: #94969f;
+}
+pre{
+    color: #94969f;
+}
